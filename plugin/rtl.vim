@@ -8,7 +8,7 @@ endif
 let g:loaded_rtl = 1
 
 if exists('g:rtl_toggle_key')
-  silent execute 'inoremap' g:rtl_toggle_key '<ESC>:call ToggleRTL()<CR>i'
+  silent execute 'inoremap' g:rtl_toggle_key '<ESC>:call ToggleRTL()<CR>a'
   silent execute 'nnoremap' g:rtl_toggle_key ':call ToggleRTL()<CR>'
 endif
 
